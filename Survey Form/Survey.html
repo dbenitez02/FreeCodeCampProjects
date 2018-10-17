@@ -1,0 +1,32 @@
+<body>
+  <h1 id="title"> Survey </h1>
+  <p id="description"> This is a basic survey asking about some favorite things in your life. </p>
+  <form id="survey-form"> 
+    <div>
+    <label id="name-label">Name:</label> <input type="text" placeholder="First and last name" required>
+    </div>
+    <div>
+    <label id="email-label">Email:</label> 
+    <input type="email" placeholder="email@example.com" required>
+    </div>
+    <div class="block">
+      <label id="number-label">From 1 to 10, how do you like this survey? </label> 
+      <input type="number" placeholder="Ex: 5" min=1 max=10>
+    </div>
+    <div class="dropdown">
+       <label id="dropdown">Click for an activity you prefer</label>
+        <button class="dropbtn">Hover</button>
+        <div class="dropdown-content">
+          <a href="#">Programming</a>
+          <a href="#">Sports</a>
+          <a href="#">Reading</a>
+          <a href="#">Gaming</a>
+        </div>
+    </div>
+    <div>
+      <label name="radio">Which do you prefer?</label>
+      <input type="radio">Android
+      <input type="radio">Apple
+    </div>
+   </form>
+</body>  
